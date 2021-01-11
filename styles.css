@@ -1,0 +1,221 @@
+*{
+  margin: 0;
+}
+
+#navbar{
+  width: 100%;
+  background-color: rgb(117, 35, 35) ;
+  height: 60px;
+  position: fixed;
+  /* display: block; */
+  z-index: 10;
+}
+#X{
+  display: table;
+}
+
+
+#links{
+  display: flex;
+  float: right;
+  margin: 18px;
+  list-style: none;
+}
+.a{
+/* padding: 7px; */
+padding-left: 15px;
+padding-right: 55px;
+text-decoration: none;
+color: white;
+font-size: 20px;
+}
+
+.K{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(253, 0, 0); /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right,#030303,  #ebebeb);
+}
+
+
+
+
+
+.HR{
+  margin-top: 35vh;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 65px;
+  
+}
+.HT{
+  color: rgb(218, 2, 2);
+  font-style: italic;
+  font-family: 'Allan';
+  float: right;
+  font-size: 30px;
+  
+}
+
+
+
+.welcome{
+  margin-left: 40%;
+  margin-right: 45%;
+  
+  width: 25em;
+  /* display: block; */
+  padding: 80px;
+}
+
+
+.J{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(75, 117, 165); /
+  
+}
+
+
+
+#Work{
+  display: inline;
+  color: aliceblue;
+  text-align: center;
+  font-size: 6vh;
+  padding-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+/* #L{
+  height: 100px;
+  width: 100%;
+  background-color: purple;
+} */
+
+#pro{
+  background-color: rgb(255, 255, 255);
+  width: 76vh;
+  height: 5px;
+  margin: auto;
+}
+
+
+
+
+.PP{
+  width: 450px;
+}
+
+.BOX{
+  width: 450px;
+  height: 250px;
+  
+  box-shadow: 30px 20px rgb(82, 72, 72);
+  
+}
+.AQ{
+  position: absolute;
+  margin-left: 22vw; ;
+  
+  transition: 3s ease-out;
+}
+
+.AW{
+  position: absolute;
+  margin-left: 32vw;
+  margin-top: 40px;
+  transition: 4s ease-out;
+}
+.AE{
+  position: absolute;
+  margin-left: 42vw;
+  margin-top: 80px;
+  
+  transition: 5s ease-out;
+}
+.AR{
+  position: absolute;
+  margin-left: 52vw;
+  margin-top: 120px;
+  transition: 6s ease-out;
+}
+
+.AQ:hover{
+  z-index: 10;
+  
+}
+.AW:hover{
+  z-index: 10;
+}
+.AE:hover{
+  z-index: 10;
+}
+.AR:hover{
+  z-index: 10;
+}
+
+#contacts{
+  width: 100%;
+  height: 12vh;
+  background-color: rgb(19, 67, 122);
+}
+
+#contact{
+  background-color: #735eed;
+  padding: 35px 0 20px 0;
+  width:100%;
+  display: inline;
+  text-decoration: none;
+  list-style: none;
+  justify-content: center;
+}
+
+li{
+  list-style: none;
+}
+
+i{
+  width: 10%;
+}
+
+.SR{
+  margin-left: 48%;
+  padding-top: 20px;
+  color: #ebebeb;
+  font-size: 29px;
+}
+.SW{
+  position: absolute;
+  margin-left: 48%;
+  
+  color: #ebebeb;
+  font-size: 29px;
+}
+.SQ{
+  position: absolute;
+  margin-left: 54%;
+  
+  color: #ebebeb;
+  font-size: 29px;
+}
+.ST{
+  position: absolute;
+  margin-left: 51%;
+
+  color: #ebebeb;
+  font-size: 29px;
+}
